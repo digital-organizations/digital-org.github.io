@@ -1,4 +1,4 @@
-# Bookmark and url shortening
+# Digital Org Application
 
 ## Problem statement
 
@@ -21,13 +21,14 @@ Our system should meet the following requirements:
 
 * User should be able to create cards representing the url where each card has a short title, brief description and a customizable picture. Default picture would be the favicon of the serving application. A sample pen sketch is as below:
 
-    ![Sample Card](img/card.png)
+    ![digital](img/digital.png)
     
     > :pushpin: NOTE: You are free to design the cards in your own way to enhance the user-experience. **THIS IS JUST A SKETCH TO ILLUSTRATE**.  
 
-* User should be able to group cards in terms of tribes, feature teams, platforms or application. **This would be like a catalog**. User should be able to share the group urls. 
-
-    ![Group Card](img/group-cards.png)
+* Monitoring : 
+    Kibana : https://604d8e9e397a4a2eb81b1b2c5ee7f96c.eastus2.azure.elastic-cloud.com:9243/app/home#/tutorial/apm
+        > :pushpin: NOTE: #elastic
+  #NRz964Jlpsx2htzvYwujoCt6
 
 * Each card should be a short url with the re-direction to the original url. **This short url will have no expiration as it belongs to a group**. The generation of this short url should be dynamic and unique and could carry some contextual information too.
 
