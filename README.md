@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/digital-organizations/digital-org.svg?token=uk63pxdAgoFGezW3mmw9&branch=master)](https://travis-ci.com/digital-organizations/digital-org)  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e96517f467ff49e38e839728dd71d8fa)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=abhayshukla04/digital-org&amp;utm_campaign=Badge_Grade)  [![codecov](https://codecov.io/gh/abhayshukla04/digital-org/branch/master/graph/badge.svg?token=2UCY3W0QLK)](https://codecov.io/gh/abhayshukla04/digital-org) [![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/@angular/core)
 
-#####appUrl: [digital-organization](https://digital-organizations.github.io/digital-org.github.io/land)
+#####appUrl: [digital-organization](https://digital-organizations.github.io/digital-org.github.io/)
   
 #####openApiUrl: [digital-organizations swagger-ui](https://digital-org.herokuapp.com/swagger-ui/#/)
 
