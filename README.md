@@ -1,10 +1,14 @@
 # Digital Org Application
 
+Circle CI   
+[![Digital Org](https://circleci.com/gh/digital-organizations/digital-org.svg "CircleCI status")](https://circleci.com/gh/digital-organizations/digital-org)
+[![Digital Org-UI](https://circleci.com/gh/digital-organizations/digital-org-ui.svg "CircleCI status")](https://circleci.com/gh/digital-organizations/digital-org-ui)
+
 Travis    
 [![Build Status](https://travis-ci.com/digital-organizations/digital-org.svg?token=uk63pxdAgoFGezW3mmw9&branch=master)](https://travis-ci.com/digital-organizations/digital-org)
 [![Build Status](https://travis-ci.com/digital-organizations/digital-org-ui.svg?branch=master)](https://travis-ci.com/digital-organizations/digital-org-ui)
 
-Older builds are on [Circle CI](https://app.circleci.com/pipelines/github/digital-organizations/)
+Note : Older builds are on [Circle CI](https://app.circleci.com/gh/digital-organizations/). Due to Codecov integration of migrated to Travis.
 
 Codacy  
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a0080fc3dbe7469281991a52bfa02247)](https://www.codacy.com/gh/digital-organizations/digital-org/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=digital-organizations/digital-org&amp;utm_campaign=Badge_Grade)
