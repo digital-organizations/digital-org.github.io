@@ -21,14 +21,16 @@ Codecov
 NPM  
 [![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/@angular/core)
  
-####appUrl: [digital-organization](https://digital-organizations.github.io/digital-org.github.io/)
+#### appUrl: [digital-organization](https://digital-organizations.github.io/digital-org.github.io/)
   
   
-####openApiUrl: [digital-organizations swagger-ui](https://digital-org.herokuapp.com/swagger-ui/#/)
+#### openApiUrl: [digital-organizations swagger-ui](https://digital-org.herokuapp.com/swagger-ui/#/)
 
-####monitoringUrl: [Kibana](https://604d8e9e397a4a2eb81b1b2c5ee7f96c.eastus2.azure.elastic-cloud.com:9243/app/home#/tutorial/apm)
+#### monitoringUrl: 
+
+[Kibana](https://da02d396d35a43068d3ae7f1114cae90.us-east-1.aws.found.io:9243)
 username : elastic
-password : [copy from this link](https://raw.githubusercontent.com/digital-organizations/digital-org/master/src/main/resources/application.properties)
+password : [copy from this link](a0Ny8XFNvg7u1znkZeeaO3mR)
 
 repositories: 
 
@@ -66,7 +68,7 @@ $ mvn spring-boot:run
 ```
 
 
-Angular  : http://localhost:4200
+###### Angular  : http://localhost:4200
 ```
 $ git clone
 $ cd digital-org-ui
@@ -75,9 +77,24 @@ $ ng serve
 
 ```
 
-Heroku CLI :
+###### Heroku CLI :
 ```
 $ heroku login
 $ heroku apps
 $ heroku logs -t --app digital-org
+```
+
+###### Monitoring 
+```
+Elastic  : https://c013054f3b784fcfa1caa48efc9d0f18.us-east-1.aws.found.io:9243
+Kibana   : https://da02d396d35a43068d3ae7f1114cae90.us-east-1.aws.found.io:9243
+username : elastic
+password : a0Ny8XFNvg7u1znkZeeaO3mR
+```
+
+##### APM Configuration
+```
+java -javaagent:/Downloads/elastic-apm-agent-1.18.0.jar -Delastic.apm.service_name=digital-org -Delastic.apm.server_urls=https://fa91e1be347d4b319d59967c6d5d6b0e.apm.us-east-1.aws.cloud.es.io:443 -Delastic.apm.secret_token=gf5vlw7rzG1I01MAKv -Delastic.apm.application_packages=com.engg.digitalorg -jar digital-org-0.0.1-SNAPSHOT.jar
+```
+
 
